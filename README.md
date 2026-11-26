@@ -9,7 +9,7 @@ Grok leads literature retrieval, CareLink review and evidence synthesis; Codex i
 | Item | Device-specific interpretation and review |
 |---|---|
 | SmartGuard target | 100/110/120 mg/dL: automated basal target; individualize to risk and local labeling. |
-| Auto correction | Separate correction target 120 mg/dL; may deliver as often as every 5 min if indicated, not guaranteed every 5 min. |
+| Auto correction | Separate correction target 120 mg/dL; per US manufacturer FAQ/SmartGuard support, automatic correction is eligible when algorithm-controlled auto basal reaches its maximum and SG exceeds 120 mg/dL, if other conditions permit. May deliver as often as every 5 min as needed; not guaranteed. This is not the user-set Manual Mode Max Basal. Verify local software/labeling. |
 | Temp Target | 150 mg/dL; auto correction withheld while active. Consider exercise context, IOB and individual response. |
 | AIT | Algorithm correction calculation parameter, not physiological duration; shorter AIT may increase correction; review TBR, late lows, IOB and risk first. |
 | ICR | g/U, lower value means more meal insulin per gram; assess repeated comparable meals, actual carbs and timing before considering clinician review. |
@@ -39,6 +39,9 @@ Grok leads literature retrieval, CareLink review and evidence synthesis; Codex i
 - E11: [PMID 40824839](https://pubmed.ncbi.nlm.nih.gov/40824839/) — sensor-specific single-arm study, not a comparative trial.
 
 These references are carried forward from the earlier draft; full-text, citation details and local device labeling require clinical verification before activation. Do not fabricate numbers or claim completed full-text review.
+
+## Safe Meal Bolus — clarification (2026-11-26)
+A lower delivered/recommended bolus than the theoretical carb/ICR calculation is not proof of excessive IOB subtraction. The manufacturer describes a predictive hypoglycemia safety adjustment considering glucose/trend, insulin history (including automated delivery), and entered carbs. Distinguish theoretical food bolus, correction component, system recommendation, adjustment, requested and delivered amounts, and pump mode. Do not override the safety feature or use phantom carbs. Sources: [manufacturer FAQ](https://www.minimed.com/en-us/support/product-support/780g/faq/), [SmartGuard bolus](https://www.minimed.com/en-us/support/product-support/780g/smartguard-bolus), [UK Safe Meal Bolus FAQ](https://www.medtronic-diabetes.com/en-gb/help-centre/faqs/my-bolus-amount-seems-lower-i-was-expecting-when-using-smartguardtm-feature), [AIT](https://origin.medtronicdiabetes.com/customer-support/minimed-780g-system-support/adjusting-active-insulin-time). US FAQ checked 2026-11-26; Taiwan labeling/version verification pending. Clinical approval pending.
 
 ## CareLink review
 First identify timestamp/timezone, firmware, sensor, insulin, current and prior settings with effective dates, mode, data coverage, actual carbs/meals, user and automatic delivery, IOB (if available), set change, exercise and illness. Only CGM is insufficient for ICR/AIT attribution. Review TIR/TITR/TBR/TAR, CV, CGM active%, SmartGuard%, TDD and component denominators, postmeal 0–2h and 2–4h. Check recurrent hypoglycemia first.
