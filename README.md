@@ -35,7 +35,7 @@ Grok leads literature retrieval, CareLink review and evidence synthesis; Codex i
 - E07: [PMID 41264350](https://pubmed.ncbi.nlm.nih.gov/41264350/) — missed meal bolus study; monitored research protocol, not a prescription.
 - E08: [DOI 10.2337/dc25-2124](https://doi.org/10.2337/dc25-2124) — days without user boluses; observational, meal intake not established.
 - E09: [PMC11732933](https://pmc.ncbi.nlm.nih.gov/articles/PMC11732933/) — EASD/ISPAD exercise statement, context-specific.
-- E10: [DOI 10.1016/S2213-8587(24)00089-5](https://doi.org/10.1016/S2213-8587(24)00089-5) — CRISTAL pregnancy RCT; full outcome review pending.
+- E10: [CRISTAL randomized trial, PMID 38697182](https://pubmed.ncbi.nlm.nih.gov/38697182/) — 95 pregnant participants with type 1 diabetes, MiniMed 780G versus standard insulin therapy. Overall pregnancy TIR (63–140 mg/dL), the primary outcome, was 66.5% versus 63.2%. The adjusted difference was +1.88 percentage points (95% CI −0.82 to +4.58). Overnight pregnancy TIR, a secondary outcome, favored 780G (+6.58 points, 95% CI +2.31 to +10.85). Results apply to the studied population. Local device labeling requires a separate check. Grok identified the primary endpoint during the November 26 review. Codex checked the effect estimates against the [original trial, Table 2](https://doi.org/10.1016/S2213-8587(24)00089-5) on 2026-11-27.
 - E11: [PMID 40824839](https://pubmed.ncbi.nlm.nih.gov/40824839/) — sensor-specific single-arm study, not a comparative trial.
 
 These references are carried forward from the earlier draft; full-text, citation details and local device labeling require clinical verification before activation. Do not fabricate numbers or claim completed full-text review.
